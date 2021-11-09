@@ -1,15 +1,16 @@
 {
   "project_info": {
     "project_number": "449778956435",
+    "firebase_url": "https://chatapp-efd56-default-rtdb.firebaseio.com",
     "project_id": "chatapp-efd56",
     "storage_bucket": "chatapp-efd56.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:449778956435:android:4dd8b599cbe9a481933566",
+        "mobilesdk_app_id": "1:449778956435:android:1713b1d8cdba67c5933566",
         "android_client_info": {
-          "package_name": "com.mianasad.chatsapp"
+          "package_name": "com.minor.socialbounce"
         }
       },
       "oauth_client": [
