@@ -263,7 +263,6 @@ public class GroupMessagesAdapter extends RecyclerView.Adapter {
                     View view = LayoutInflater.from(context).inflate(R.layout.delete_dialog, null);
                     DeleteDialogBinding binding = DeleteDialogBinding.bind(view);
                     AlertDialog dialog = new AlertDialog.Builder(context)
-                            .setTitle("Delete Message")
                             .setView(binding.getRoot())
                             .create();
 
