@@ -173,11 +173,7 @@ public class MessagesAdapter extends RecyclerView.Adapter {
                             .setView(binding.getRoot())
                             .create();
 
-                    if(remoteConfig.getBoolean("isEveryoneDeletionEnabled")) {
-                        binding.everyone.setVisibility(View.VISIBLE);
-                    } else {
-                        binding.everyone.setVisibility(View.GONE);
-                    }
+
                     binding.everyone.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
@@ -264,10 +260,13 @@ public class MessagesAdapter extends RecyclerView.Adapter {
                     View view = LayoutInflater.from(context).inflate(R.layout.delete_dialog, null);
                     DeleteDialogBinding binding = DeleteDialogBinding.bind(view);
                     AlertDialog dialog = new AlertDialog.Builder(context)
-                            .setTitle("Delete Message")
                             .setView(binding.getRoot())
                             .create();
-
+                    if(remoteConfig.getBoolean("isEveryoneDeletionEnabled")) {
+                        binding.everyone.setVisibility(View.VISIBLE);
+                    } else {
+                        binding.everyone.setVisibility(View.GONE);
+                    }
                     binding.everyone.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
