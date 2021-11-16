@@ -47,7 +47,7 @@ public class GroupMessagesAdapter extends RecyclerView.Adapter {
         if(viewType == ITEM_SENT) {
             View view = LayoutInflater.from(context).inflate(R.layout.item_sent_group, parent, false);
             return new SentViewHolder(view);
-        } else {
+        } else {    
             View view = LayoutInflater.from(context).inflate(R.layout.item_receive_group, parent, false);
             return new ReceiverViewHolder(view);
         }
@@ -92,7 +92,6 @@ public class GroupMessagesAdapter extends RecyclerView.Adapter {
 
 
             }
-
             message.setFeeling(pos);
 
             FirebaseDatabase.getInstance().getReference()
