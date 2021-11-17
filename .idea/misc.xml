@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ChatApp/app/src/main/res/layout/activity_group_chat.xml" value="0.1" />
+        <entry key="..\:/ChatApp/app/src/main/res/layout/activity_o_t_p.xml" value="0.1" />
+        <entry key="..\:/ChatApp/app/src/main/res/layout/activity_phone_number.xml" value="0.1" />
+        <entry key="..\:/ChatApp/app/src/main/res/layout/item_receive.xml" value="0.1" />
+        <entry key="..\:/ChatApp/app/src/main/res/layout/item_receive_group.xml" value="0.1" />
+        <entry key="..\:/ChatApp/app/src/main/res/layout/item_sent.xml" value="0.1" />
+        <entry key="..\:/ChatApp/app/src/main/res/layout/item_sent_group.xml" value="0.1" />
         <entry key="..\:/ChatsApp-master/app/src/main/res/drawable-v24/receive_drawable.xml" value="0.19583333333333333" />
         <entry key="..\:/ChatsApp-master/app/src/main/res/drawable/ic_left_arrow.xml" value="0.1527777777777778" />
         <entry key="..\:/ChatsApp-master/app/src/main/res/drawable/ic_send.xml" value="0.1" />

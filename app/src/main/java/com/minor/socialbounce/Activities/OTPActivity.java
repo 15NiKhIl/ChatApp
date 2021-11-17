@@ -39,7 +39,7 @@ public class OTPActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         dialog = new ProgressDialog(this);
-        dialog.setMessage("Sending OTP...");
+        dialog.setMessage("Processing...");
         dialog.setCancelable(false);
         dialog.show();
 
