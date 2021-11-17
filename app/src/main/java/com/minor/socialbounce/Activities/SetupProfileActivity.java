@@ -1,14 +1,14 @@
 package com.minor.socialbounce.Activities;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -165,7 +165,7 @@ public class SetupProfileActivity extends AppCompatActivity {
                 });
 
 
-                binding.imageView.setImageURI(data.getData());
+                binding.imageView1.setImageURI(data.getData());
                 selectedImage = data.getData();
             }
         }
